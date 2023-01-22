@@ -1,0 +1,29 @@
+bin
+builds
+artifacts
+
+# Secrets
+.secrets.env
+
+# MacOS
+.DS_Store
+
+# Python
+venv
+*-venv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pytest
+.pytest_cache/
+.hypothesis/
+
+# Ignore generated credentials from google-github-actions/auth
+gha-creds-*.json
+
+# IDEs
+**/.idea/*
+!.vscode/**
+**/credentials.json
